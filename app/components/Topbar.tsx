@@ -30,7 +30,7 @@ const Topbar = () => {
 
     return (
         <nav
-            className={`flex justify-between items-center px-28 bg-transparent sticky top-0 transition-transform duration-300 ${
+            className={`flex justify-between items-center px-28 bg-transparent sticky top-0 transition-transform duration-300 topbar  ${
                 isVisible ? "translate-y-0" : "-translate-y-full"
             }`}
         >
@@ -58,7 +58,7 @@ const Topbar = () => {
                     <li className="gray">
                         <span className="green text-sm">03.</span>
                         <button
-                            onClick={() => scrollToSection("work")}
+                            onClick={() => scrollToSection("projects")}
                             className="font-medium"
                         >
                             Work
