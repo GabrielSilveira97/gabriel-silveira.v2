@@ -41,7 +41,7 @@ const Topbar = () => {
                         <span className="green text-sm">01.</span>
                         <button
                             onClick={() => scrollToSection("about")}
-                            className="font-medium"
+                            className="font-medium hover:text-[var(--green)]"
                         >
                             About
                         </button>
@@ -50,7 +50,7 @@ const Topbar = () => {
                         <span className="green text-sm">02.</span>
                         <button
                             onClick={() => scrollToSection("experience")}
-                            className="font-medium"
+                            className="font-medium hover:text-[var(--green)]"
                         >
                             Experience
                         </button>
@@ -59,7 +59,7 @@ const Topbar = () => {
                         <span className="green text-sm">03.</span>
                         <button
                             onClick={() => scrollToSection("projects")}
-                            className="font-medium"
+                            className="font-medium hover:text-[var(--green)]"
                         >
                             Work
                         </button>
@@ -68,7 +68,7 @@ const Topbar = () => {
                         <span className="green text-sm">04.</span>
                         <button
                             onClick={() => scrollToSection("contact")}
-                            className="font-medium"
+                            className="font-medium hover:text-[var(--green)]"
                         >
                             Contact
                         </button>
