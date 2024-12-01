@@ -47,7 +47,7 @@ const Topbar = () => {
                             onClick={() => scrollToSection("about")}
                             className="font-medium hover:text-[var(--green)]"
                         >
-                            About
+                            Sobre
                         </button>
                     </li>
                     <li className="gray">
@@ -56,7 +56,7 @@ const Topbar = () => {
                             onClick={() => scrollToSection("experience")}
                             className="font-medium hover:text-[var(--green)]"
                         >
-                            Experience
+                            Experiência
                         </button>
                     </li>
                     <li className="gray">
@@ -65,7 +65,7 @@ const Topbar = () => {
                             onClick={() => scrollToSection("projects")}
                             className="font-medium hover:text-[var(--green)]"
                         >
-                            Work
+                            Projetos
                         </button>
                     </li>
                     <li className="gray">
@@ -74,7 +74,7 @@ const Topbar = () => {
                             onClick={() => scrollToSection("contact")}
                             className="font-medium hover:text-[var(--green)]"
                         >
-                            Contact
+                            Contato
                         </button>
                     </li>
                 </ul>
