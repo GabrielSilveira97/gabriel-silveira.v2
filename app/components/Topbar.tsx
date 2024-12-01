@@ -30,8 +30,8 @@ const Topbar = () => {
 
     return (
         <nav
-            className={`flex justify-between items-center px-28 bg-transparent sticky top-0 transition-transform duration-300 topbar  ${
-                isVisible ? "translate-y-0" : "-translate-y-full"
+            className={`flex justify-between items-center px-28 bg-transparent sticky top-0 transition-transform duration-300 topbar shadow-lg  ${
+                isVisible ? "translate-y-0 shadow-sm " : "-translate-y-full "
             }`}
         >
             <Image src={"/"} width={100} height={100} alt="Logo" />
