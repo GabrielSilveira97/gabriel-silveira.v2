@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Button from "./Button";
+import { motion } from "framer-motion";
 
 const Topbar = () => {
     const [isVisible, setIsVisible] = useState(true);
@@ -30,12 +31,15 @@ const Topbar = () => {
 
     return (
         <nav
-            className={`flex justify-between items-center px-28 bg-transparent sticky top-0 transition-transform duration-300 topbar shadow-lg  ${
+        
+            className={`flex justify-between items-center px-28 bg-transparent sticky top-0 transition-transform duration-300 topbar shadow-lg   ${
                 isVisible ? "translate-y-0 shadow-sm " : "-translate-y-full "
             }`}
         >
             <Image src={"/"} width={100} height={100} alt="Logo" />
-            <section className="flex gap-5 items-center">
+            <motion.section className="flex gap-5 items-center" initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}>
                 <ul className="flex gap-5">
                     <li className="gray">
                         <span className="green text-sm">01.</span>
@@ -75,7 +79,7 @@ const Topbar = () => {
                     </li>
                 </ul>
                 <Button label="Resume" />
-            </section>
+            </motion.section>
         </nav>
     );
 };
