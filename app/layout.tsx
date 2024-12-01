@@ -6,7 +6,7 @@ import Topbar from "./components/Topbar";
 
 
 export const metadata: Metadata = {
-  title: "Create Next App",
+  title: "Gabriel Silveira",
  
 };
 
