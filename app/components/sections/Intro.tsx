@@ -6,6 +6,7 @@ const Intro = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
+            id="home"
         >
             <motion.h3
                 className="green"
