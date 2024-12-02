@@ -27,9 +27,22 @@ body {
 
 .topbar{
   backdrop-filter: blur(8px);
-  z-index: 10;
+  z-index: 20;
 }
 
+.logo{
+  position: relative;
+  color: var(--green);
+  border: 0.1px solid var(--green);
+  padding: 0.50rem 1rem;
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.logo:hover{
+  transform: translate(-3px, -3px); /* Movimenta o botão para cima e para a direita */
+  box-shadow: 3px 3px var(--green)
+}
 .green{
   color: var(--green);
 }
@@ -117,4 +130,10 @@ body {
   font-family: var(--font-inter);
   z-index: 9;
   margin-left: 28rem;
+}
+
+.links:hover{
+  transform: translate(0, -5px);
+  color: var(--green);
+  transition: all 0.5s;
 }

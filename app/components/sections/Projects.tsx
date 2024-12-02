@@ -23,7 +23,7 @@ const Projects = () => {
                 transition={{ duration: 3.4 }} className="text-[var(--slate-light)] projects font-semibold text-xl">Overview Dashboard</motion.h2>
                     <motion.section initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 3.6 }} className="project-desc text-sm rounded shadow-lg px-8 py-5 max-w-[300]  text-end ">
+                transition={{ duration: 3.6 }} className="project-desc text-sm rounded shadow-lg p-5   text-end ">
                         <p className="">Desenvolvi um site de dashboard focado na visualização de dados, permitindo o acompanhamento de métricas em tempo real através de gráficos dinâmicos. Utilizando tecnologias como React, TypeScript, e shadcn, o sistema oferece uma interface intuitiva e responsiva para exibição de estatísticas detalhadas.  </p>
                     </motion.section>
                 <motion.ul initial={{ opacity: 0, x: 50 }}
