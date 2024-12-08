@@ -42,6 +42,39 @@ const Projects = () => {
                 </motion.ul>
             </section>
         </div>
+        <div className="pt-36 relative">
+            <section className="flex flex-col items-start gap-3" >
+                <motion.h1 initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 3.2 }} className="green">Projeto</motion.h1>
+                <motion.h2 initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 3.4 }} className="text-[var(--slate-light)] projects font-semibold text-xl">Task Manager</motion.h2>
+                    <motion.section initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 3.6 }} className="project-cresc text-sm rounded shadow-lg p-5 ">
+                        <p className="">O Task Manager é uma aplicação web que permite aos usuários gerenciar suas tarefas de forma simples e eficiente, oferecendo funcionalidades completas de CRUD (Create, Read, Update, Delete).</p>
+                    </motion.section>
+                <motion.ul initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 3.8 }} className="text-[var(--slate)] flex gap-3">
+                    <li>Next</li>
+                    <li>Tailwind</li>
+                    <li>shadcn</li>
+                    <li>firestore</li>
+                </motion.ul>
+                <motion.ul initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 4 }} className="gray flex gap-3">
+                    <li ><Link href={"https://github.com/Bielzera97/taskmanaged"} target="blank"><GithubIcon/></Link></li>
+                    <li ><Link href={"https://taskmanaged.vercel.app/"} target="blank"><ExternalLink/></Link></li>
+                </motion.ul>
+                <motion.img alt="Foto do Projeto" initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 3.4 }} src={"/taskmanager.png"} width={700} height={450} className="project-photo rounded hover:filter-none transition-all duration-300 shadow-md absolute left-72"/>
+            </section>
+            
+        </div>
         </div>
     )
 }
