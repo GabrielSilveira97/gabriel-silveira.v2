@@ -44,18 +44,18 @@ const Projects = () => {
         </div>
         <div className="pt-36 relative">
             <section className="flex flex-col items-start gap-3" >
-                <motion.h1 initial={{ opacity: 0, x: 50 }}
+                <motion.h1 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 3.2 }} className="green">Projeto</motion.h1>
-                <motion.h2 initial={{ opacity: 0, x: 50 }}
+                <motion.h2 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 3.4 }} className="text-[var(--slate-light)] projects font-semibold text-xl">Task Manager</motion.h2>
-                    <motion.section initial={{ opacity: 0, x: 50 }}
+                    <motion.section initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 3.6 }} className="project-cresc text-sm rounded shadow-lg p-5 ">
                         <p className="">O Task Manager é uma aplicação web que permite aos usuários gerenciar suas tarefas de forma simples e eficiente, oferecendo funcionalidades completas de CRUD (Create, Read, Update, Delete).</p>
                     </motion.section>
-                <motion.ul initial={{ opacity: 0, x: 50 }}
+                <motion.ul initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 3.8 }} className="text-[var(--slate)] flex gap-3">
                     <li>Next</li>
@@ -63,7 +63,7 @@ const Projects = () => {
                     <li>shadcn</li>
                     <li>firestore</li>
                 </motion.ul>
-                <motion.ul initial={{ opacity: 0, x: 50 }}
+                <motion.ul initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 4 }} className="gray flex gap-3">
                     <li ><Link href={"https://github.com/Bielzera97/taskmanaged"} target="blank"><GithubIcon/></Link></li>
