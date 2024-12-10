@@ -75,6 +75,38 @@ const Projects = () => {
             </section>
             
         </div>
+        <div className="pt-36 relative">
+        <motion.img alt="Foto do Projeto" initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 3.4 }} src={"/rater.png"} width={700} height={450} className="project-photo rounded hover:filter-none transition-all duration-300 shadow-md absolute"/>
+            <section className="flex flex-col items-end gap-3" >
+                <motion.h1 initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 3.2 }} className="green">Projeto</motion.h1>
+                <motion.h2 initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 3.4 }} className="text-[var(--slate-light)] projects font-semibold text-xl">Rater</motion.h2>
+                    <motion.section initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 3.6 }} className="project-desc text-sm rounded shadow-lg p-5   text-end ">
+                        <p className="">O projeto busca os dados da API e os exibe na tela, mostrando uma lista de filmes com detalhes como título, descrição, imagem, etc. Além disso,implementei rotas dinâmicas que permitem acessar páginas específicas com mais detalhes sobre cada filme. Ao clicar em um filme, o usuário é redirecionado para uma página de detalhes, onde informações mais completas sobre o filme são apresentadas. Isso inclui dados como sinopse, elenco, avaliações e outros detalhes, proporcionando uma experiência mais interativa. </p>
+                    </motion.section>
+                <motion.ul initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 3.8 }} className="text-[var(--slate)] flex gap-3">
+                    <li>Next</li>
+                    <li>Tailwind</li>
+                    <li>shadcn</li>
+                    <li>API RESTful</li>
+                </motion.ul>
+                <motion.ul initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 4 }} className="gray flex gap-3">
+                    <li ><Link href={"https://github.com/Bielzera97/tmdb-api"} target="blank"><GithubIcon/></Link></li>
+                    <li ><Link href={"https://tmdb-api-tan.vercel.app/"} target="blank"><ExternalLink/></Link></li>
+                </motion.ul>
+            </section>
+        </div>
         </div>
     )
 }
