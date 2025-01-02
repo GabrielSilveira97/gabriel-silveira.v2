@@ -7,7 +7,7 @@ const Projects = () => {
         <div>
         <motion.section initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 2.8 }} className="flex items-baseline gap-2" id="projects">
+                transition={{ duration: 2.8 }} className="sm:flex-col flex items-baseline gap-2" id="projects">
             <span className="green text-xl">03.</span><h1 className="gray text-xl font-semibold topic flex items-center gap-5"> Meus Projetos <div className="h-[0.5px] w-52 bg-[var(--dark-slate)] mx-auto"></div></h1>
         </motion.section>
         <div className="pt-10 relative">
@@ -23,7 +23,7 @@ const Projects = () => {
                 transition={{ duration: 3.4 }} className="text-[var(--slate-light)] projects font-semibold text-xl">Overview Dashboard</motion.h2>
                     <motion.section initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 3.6 }} className="project-desc text-sm rounded shadow-lg p-5   text-end ">
+                transition={{ duration: 3.6 }} className="project-desc text-sm rounded shadow-lg p-5 text-end ">
                         <p className="">Desenvolvi um site de dashboard focado na visualização de dados, permitindo o acompanhamento de métricas em tempo real através de gráficos dinâmicos. Utilizando tecnologias como React, TypeScript, e shadcn, o sistema oferece uma interface intuitiva e responsiva para exibição de estatísticas detalhadas.  </p>
                     </motion.section>
                 <motion.ul initial={{ opacity: 0, x: 50 }}

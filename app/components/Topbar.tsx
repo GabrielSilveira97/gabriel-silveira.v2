@@ -32,7 +32,7 @@ const Topbar = () => {
     return (
         <nav
             
-            className={`flex justify-between items-center px-28 py-5 bg-transparent sticky top-0 transition-transform duration-300 topbar shadow-lg   ${
+            className={`flex justify-between w-full items-center px-28 py-5 bg-transparent sticky top-0 transition-transform duration-300 topbar shadow-lg   ${
                 isVisible ? "translate-y-0 shadow-sm " : "-translate-y-full "
             }`}
         >

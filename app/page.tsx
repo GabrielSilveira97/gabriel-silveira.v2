@@ -15,7 +15,7 @@ const Home = () => {
         initial={{ opacity: 0, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.6 }}
-        className="sticky top-0 h-screen pl-10 w-3 flex flex-col items-center bg-[var(--background)] z-10"
+        className="sticky top-0 h-screen pl-10 w-3 sm:flex flex-col items-center bg-[var(--background)] z-10 hidden "
       >
         {/* Links Sociais */}
         <section className="absolute bottom-[58%] translate-y-1/2 flex flex-col items-center text-[var(--slate-light)] gap-4">
@@ -46,7 +46,7 @@ const Home = () => {
         initial={{ opacity: 0, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.6 }}
-        className="sticky top-0 h-screen w-3 pr-10 flex flex-col items-center bg-[var(--background)] z-10"
+        className="sticky top-0 h-screen w-3 pr-10 sm:flex flex-col items-center bg-[var(--background)] z-10 hidden  "
       >
         {/* Email em Cima da Linha */}
         <div className="flex flex-col items-center absolute bottom-[50%] ">

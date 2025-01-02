@@ -19,7 +19,7 @@ const About = () => {
             <motion.div className="relative div-foto" initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1.1 }}>
-                <section className="arc rounded transition-all duration-300"></section>
+                <section className="arc rounded transition-all duration-300 hidden sm:block "></section>
                 <Image
                     alt="minha foto"
                     src={'/minha-foto.jpg'}
