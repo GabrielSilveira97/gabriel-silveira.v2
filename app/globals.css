@@ -106,7 +106,7 @@ body {
 }
 .div-foto:hover{ 
   .minha-foto{
-    transform: translate(-3px, -3px);
+    transform: translate(-5px, -5px);
   };
   .arc{
     transform: translate(13px, 23px); 
@@ -131,7 +131,7 @@ body {
   color: var(--slate-light);
   font-family: var(--font-inter);
   z-index: 9;
-  margin-left: 28rem;
+  
 }
 .project-cresc{
   background-color: var(--light-navy);

@@ -32,11 +32,11 @@ const Topbar = () => {
     return (
         <nav
             
-            className={`flex justify-between w-full items-center px-28 py-5 bg-transparent sticky top-0 transition-transform duration-300 topbar shadow-lg   ${
+            className={`flex justify-between w-full items-center sm:px-28 py-5 pl-10 bg-transparent sticky top-0 transition-transform duration-300 topbar shadow-lg   ${
                 isVisible ? "translate-y-0 shadow-sm " : "-translate-y-full "
             }`}
         >
-            <button className="logo rounded-full" onClick={() => scrollToSection("home")}>GS</button>
+            <button className="logo rounded-full mr-10" onClick={() => scrollToSection("home")}>GS</button>
             <motion.section className="flex gap-5 items-center" initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}>
