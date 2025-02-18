@@ -6,7 +6,7 @@ type ButtonProps = {
   
   const Button = ({ label }: ButtonProps) => {
     return (
-      <Link href={'/'} className="botao">
+      <Link href={'/CV-Gabriel-Silveira.pdf'} className="botao">
         {label}
       </Link>
     );
