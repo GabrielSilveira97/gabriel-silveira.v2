@@ -13,8 +13,9 @@ const About = () => {
             <motion.section className="text-[var(--slate)] about pt-10 " initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1.4 }}>
-                <p>Sou um desenvolvedor Full Stack apaixonado por tecnologia e inovação, com sólida experiência em construção de aplicações modernas e interfaces interativas. Tenho domínio de ferramentas e tecnologias como React, Next.js, Tailwind CSS, Redux, Chart.js, e bancos de dados SQL e NoSQL. Além disso, possuo conhecimento em criação e integração de APIs RESTful, garantindo soluções eficientes e escaláveis.</p>
-                <p><br/>Tive o privilégio de colaborar no Instituto de Controle do Espaço Aéreo (ICEA), onde contribuí para o desenvolvimento de interfaces intuitivas e dashboards informativos, aprimorando a experiência do usuário e a eficiência das operações. Busco constantemente evoluir minhas habilidades e criar projetos que causem impacto positivo.</p>
+                <p>Sou um desenvolvedor Full Stack com forte base em engenharia de software, especializado em construir soluções escaláveis, seguras e de alta performance. Tenho sólida experiência no desenvolvimento de aplicações web modernas utilizando React, Next.js, Angular e seus respectivos ecossistemas.<br></br>No front-end, aplico boas práticas de design responsivo, acessibilidade e performance com Tailwind CSS, Redux e visualizações interativas com Chart.js.
+
+<br></br>No back-end, atuo com Node.js utilizando os frameworks Express e Fastify, focando na criação e integração de APIs RESTful robustas e eficientes. Tenho domínio de bancos de dados relacionais, como PostgreSQL e MySQL, além de bancos NoSQL como MongoDB e Firebase. Estou constantemente aprimorando minhas soluções com foco em arquitetura limpa, escalabilidade e excelência na experiência do usuário.</p>
             </motion.section>
             <motion.div className="relative div-foto text-center" initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}

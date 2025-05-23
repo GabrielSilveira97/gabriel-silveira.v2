@@ -12,6 +12,23 @@ const Experience = () => {
         </motion.section>
         <motion.h2 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1.8 }} className="gray about pt-10">Desenvolvedor na <Link href={'https://crosoften.com/'} target="blank" className="green">CrosOften</Link></motion.h2>
+        <motion.h3 initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2 }} className="text-[var(--dark-slate)]">Fevereiro 2025 - Atual</motion.h3>
+        <ul className="flex flex-col gap-3 pt-10">
+            <motion.li initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2.2 }}  className="gray flex experience"><ArrowRight className="green arrow pr-2"/>Criação de interfaces web modernas, responsivas e acessíveis utilizando Angular, com estruturação de estilos robusta e modular via SCSS, garantindo manutenção facilitada e design consistente.</motion.li>
+            <motion.li initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2.4 }}  className="gray flex experience"><ArrowRight className="green arrow pr-2"/>Implementação eficiente da comunicação entre front-end e back-end, consumindo APIs RESTful e garantindo a sincronização dos dados, além de otimizar a experiência do usuário por meio de chamadas assíncronas e tratamento de estados.</motion.li>
+            <motion.li initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2.6 }}  className="gray flex experience"><ArrowRight className="green arrow pr-2"/>Criação e manutenção de APIs RESTful escaláveis e seguras utilizando Node.js, com os frameworks Express e Fastify, assegurando alta performance, organização de rotas e integração com bancos de dados para soluções completas.</motion.li>
+        </ul>
+        <motion.h2 initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1.8 }} className="gray about pt-10">Desenvolvedor no <Link href={'https://www.icea.decea.mil.br/'} target="blank" className="green">ICEA (Instituto de Controle do Espaço Aéreo)</Link></motion.h2>
         <motion.h3 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
