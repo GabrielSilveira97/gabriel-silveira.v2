@@ -26,7 +26,7 @@ const Projects = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 3.4 }}
-          src={"/overview.png"}
+          src={"/soc-web.png"}
           className="project-photo rounded hover:filter-none transition-all duration-300 shadow-md max-w-full lg:w-1/2"
         />
         <section className="flex flex-col items-start lg:items-end gap-3 lg:w-1/2">
@@ -44,7 +44,7 @@ const Projects = () => {
             transition={{ duration: 3.4 }}
             className="text-[var(--slate-light)] projects font-semibold text-xl"
           >
-            Overview Dashboard
+            SOC (Ship Own Container)
           </motion.h2>
           <motion.section
             initial={{ opacity: 0, x: 50 }}
@@ -53,11 +53,7 @@ const Projects = () => {
             className="project-desc text-sm rounded shadow-lg p-5 text-end"
           >
             <p>
-              Desenvolvi um site de dashboard focado na visualização de dados,
-              permitindo o acompanhamento de métricas em tempo real através de
-              gráficos dinâmicos. Utilizando tecnologias como React, TypeScript
-              e shadcn, o sistema oferece uma interface intuitiva e responsiva
-              para exibição de estatísticas detalhadas.
+Desenvolvi uma plataforma para facilitar o processo logístico entre donos de containers e agentes de carga, automatizando o match entre rotas cadastradas e containers disponíveis. Fui responsável pela lógica central de correspondência, garantindo alta performance e precisão nos resultados, otimizando o fluxo de negociações no setor.  
             </p>
           </motion.section>
           <motion.ul
@@ -66,10 +62,10 @@ const Projects = () => {
             transition={{ duration: 3.8 }}
             className="text-[var(--slate)] flex gap-3"
           >
-            <li>Next</li>
+            <li>Angular</li>
             <li>Tailwind</li>
-            <li>shadcn</li>
-            <li>Firebase</li>
+            <li>SCSS</li>
+            <li>Angular Material</li>
           </motion.ul>
           <motion.ul
             initial={{ opacity: 0, x: 50 }}
@@ -79,7 +75,7 @@ const Projects = () => {
           >
             <li>
               <Link
-                href={"https://github.com/Bielzera97/dashboard"}
+                href={"https://github.com/Bielzera97/soc-web/tree/main"}
                 target="blank"
               >
                 <GithubIcon />
@@ -87,7 +83,7 @@ const Projects = () => {
             </li>
             <li>
               <Link
-                href={"https://overview-dashboard-ashen.vercel.app/"}
+                href={"https://soc-web-smoky.vercel.app/#/home/initial"}
                 target="blank"
               >
                 <ExternalLink />
