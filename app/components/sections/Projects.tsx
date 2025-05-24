@@ -53,7 +53,7 @@ const Projects = () => {
             className="project-desc text-sm rounded shadow-lg p-5 text-end"
           >
             <p>
-Desenvolvi uma plataforma para facilitar o processo logístico entre donos de containers e agentes de carga, automatizando o match entre rotas cadastradas e containers disponíveis. Fui responsável pela lógica central de correspondência, garantindo alta performance e precisão nos resultados, otimizando o fluxo de negociações no setor.  
+              SOC é uma plataforma para facilitar o processo logístico entre donos de containers e agentes de carga, ele automatiza o match entre rotas cadastradas e containers disponíveis. Fui responsável pela lógica central de correspondência, garantindo alta performance e precisão nos resultados, otimizando o fluxo de negociações no setor.  
             </p>
           </motion.section>
           <motion.ul
@@ -98,7 +98,7 @@ Desenvolvi uma plataforma para facilitar o processo logístico entre donos de co
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 3.4 }}
-          src={"/taskmanager.png"}
+          src={"/need.png"}
           className="project-photo rounded hover:filter-none transition-all duration-300 shadow-md max-w-full lg:w-1/2"
         />
         <section className="flex flex-col items-start lg:items-end gap-3 lg:w-1/2">
@@ -116,7 +116,7 @@ Desenvolvi uma plataforma para facilitar o processo logístico entre donos de co
             transition={{ duration: 3.4 }}
             className="text-[var(--slate-light)] projects font-semibold text-xl"
           >
-            Task-Manager
+            Need
           </motion.h2>
           <motion.section
             initial={{ opacity: 0, x: 50 }}
@@ -125,7 +125,7 @@ Desenvolvi uma plataforma para facilitar o processo logístico entre donos de co
             className="project-desc text-sm rounded shadow-lg p-5 text-end"
           >
             <p>
-            O Task Manager é uma aplicação web que permite aos usuários gerenciar suas tarefas de forma simples e eficiente, oferecendo funcionalidades completas de CRUD (Create, Read, Update, Delete)
+            Need é um sistema de gerenciamento desenvolvido com foco em instituições de ensino. O projeto conta com módulos que exibem dados quantitativos sobre alunos, professores, cursos e aulas, com funcionalidades de pesquisa avançada para acessar informações específicas de cada categoria. Além disso, o sistema permite o cadastro de novos administradores, garantindo controle e organização de forma eficiente e intuitiva.
             </p>
           </motion.section>
           <motion.ul
@@ -134,10 +134,10 @@ Desenvolvi uma plataforma para facilitar o processo logístico entre donos de co
             transition={{ duration: 3.8 }}
             className="text-[var(--slate)] flex gap-3"
           >
-            <li>Next</li>
-            <li>Tailwind</li>
-            <li>shadcn</li>
-            <li>Firebase</li>
+            <li>Angular</li>
+            <li>API RESTful</li>
+            <li>SCSS</li>
+            <li>Angular Material</li>
           </motion.ul>
           <motion.ul
             initial={{ opacity: 0, x: 50 }}
@@ -147,7 +147,7 @@ Desenvolvi uma plataforma para facilitar o processo logístico entre donos de co
           >
             <li>
               <Link
-                href={"https://github.com/Bielzera97/taskmanaged"}
+                href={"https://github.com/Bielzera97/need_web_gerencial"}
                 target="blank"
               >
                 <GithubIcon />
@@ -155,7 +155,7 @@ Desenvolvi uma plataforma para facilitar o processo logístico entre donos de co
             </li>
             <li>
               <Link
-                href={"https://taskmanaged.vercel.app/"}
+                href={"https://need-web-gerencial.vercel.app/"}
                 target="blank"
               >
                 <ExternalLink />
