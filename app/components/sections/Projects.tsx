@@ -170,7 +170,7 @@ const Projects = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 3.4 }}
-          src={"/rater.png"}
+          src={"/izi.png"}
           className="project-photo rounded hover:filter-none transition-all duration-300 shadow-md max-w-full lg:w-1/2"
         />
         <section className="flex flex-col items-start lg:items-end gap-3 lg:w-1/2">
@@ -188,7 +188,7 @@ const Projects = () => {
             transition={{ duration: 3.4 }}
             className="text-[var(--slate-light)] projects font-semibold text-xl"
           >
-            Rater
+            IZI
           </motion.h2>
           <motion.section
             initial={{ opacity: 0, x: 50 }}
@@ -197,8 +197,7 @@ const Projects = () => {
             className="project-desc text-sm rounded shadow-lg p-5 text-end"
           >
             <p>
-            O projeto busca os dados da API e os exibe na tela, mostrando uma lista de filmes com detalhes como título, descrição, imagem, etc. Além disso,implementei rotas dinâmicas que permitem acessar páginas específicas com mais detalhes sobre cada filme. Ao clicar em um filme, o usuário é redirecionado para uma página de detalhes, onde informações mais completas sobre o filme são apresentadas. Isso inclui dados como sinopse, elenco, avaliações e outros detalhes, proporcionando uma experiência mais interativa.
-            </p>
+IZI é um sistema completo para controle de serviços e gerenciamento de usuários. A aplicação permite o cadastro, listagem e administração de usuários e serviços de forma eficiente. Conta com um dashboard interativo que exibe informações e métricas em tempo real, facilitando a visualização geral do sistema. Também inclui funcionalidades para adicionar novos usuários com diferentes níveis de acesso.            </p>
           </motion.section>
           <motion.ul
             initial={{ opacity: 0, x: 50 }}
@@ -206,9 +205,9 @@ const Projects = () => {
             transition={{ duration: 3.8 }}
             className="text-[var(--slate)] flex gap-3"
           >
-            <li>Next</li>
+            <li>Angular</li>
             <li>Tailwind</li>
-            <li>shadcn</li>
+            <li>Angular Material</li>
             <li>API RESTful</li>
           </motion.ul>
           <motion.ul
@@ -219,7 +218,7 @@ const Projects = () => {
           >
             <li>
               <Link
-                href={"https://github.com/Bielzera97/tmdb-api"}
+                href={"https://github.com/Bielzera97/izi_web_gerencial"}
                 target="blank"
               >
                 <GithubIcon />
@@ -227,7 +226,7 @@ const Projects = () => {
             </li>
             <li>
               <Link
-                href={"https://tmdb-api-tan.vercel.app/"}
+                href={"https://izi-web-gerencial-ip15o1x0e-bielzera97s-projects.vercel.app/home"}
                 target="blank"
               >
                 <ExternalLink />
