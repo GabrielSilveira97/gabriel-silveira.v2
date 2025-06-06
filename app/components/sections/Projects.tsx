@@ -235,9 +235,7 @@ IZI é um sistema completo para controle de serviços e gerenciamento de usuári
           </motion.ul>
         </section>
       </div>  
-      {/* Additional projects can follow the same pattern */}
 
-      {/* Final Container */}
     </div>
   );
 };
