@@ -29,6 +29,23 @@ const Experience = () => {
         </ul>
         <motion.h2 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 1.8 }} className="gray about pt-10">Desenvolvedor FullStack na <Link href={'#'} target="blank" className="green">DAST (Developer Actions Soluções em Tecnologia)</Link></motion.h2>
+        <motion.h3 initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2 }} className="text-[var(--dark-slate)]">Maio 2025 - Atual</motion.h3>
+        <ul className="flex flex-col gap-3 pt-10">
+            <motion.li initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2.2 }}  className="gray flex experience"><ArrowRight className="green arrow pr-2"/>Desenvolvimento de Landing Pages (LPs) modernas e otimizadas utilizando Next.js e Tailwind CSS, focando em performance, SEO e conversão, com design responsivo e experiência de usuário otimizada para diferentes dispositivos.</motion.li>
+            <motion.li initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2.4 }}  className="gray flex experience"><ArrowRight className="green arrow pr-2"/>Criação de sistemas web completos utilizando o ecossistema React, implementando interfaces dinâmicas e interativas com componentização reutilizável, gerenciamento de estado eficiente e integração com APIs externas.</motion.li>
+            <motion.li initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 2.6 }}  className="gray flex experience"><ArrowRight className="green arrow pr-2"/>Desenvolvimento de APIs robustas e performáticas utilizando Node.js com frameworks Fastify e Express, implementando arquiteturas escaláveis, validação de dados, autenticação e documentação completa para integração front-end/back-end.</motion.li>
+        </ul>
+        <motion.h2 initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1.8 }} className="gray about pt-10">Desenvolvedor no <Link href={'https://www.icea.decea.mil.br/'} target="blank" className="green">ICEA (Instituto de Controle do Espaço Aéreo)</Link></motion.h2>
         <motion.h3 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
