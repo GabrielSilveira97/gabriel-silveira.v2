@@ -5,10 +5,12 @@ import Experience from "./components/sections/Experience";
 import Intro from "./components/sections/Intro";
 import Projects from "./components/sections/Projects";
 import Link from "next/link";
+import Topbar from "./components/Topbar";
 import { motion } from "framer-motion";
 
 const Home = () => {
   return (
+    <><Topbar/>
     <div className="flex flex-col md:flex-row min-h-screen">
       {/* Aside Esquerdo */}
       <motion.aside
@@ -64,6 +66,7 @@ const Home = () => {
         <div className="absolute bottom-0 w-[1px] h-2/4 bg-[var(--slate-light)]" />
       </motion.aside>
     </div>
+    </>
   );
 };
 
