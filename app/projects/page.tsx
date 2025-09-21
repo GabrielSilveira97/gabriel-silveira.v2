@@ -10,8 +10,8 @@ const ProjectsPage = () => {
             <p className="text-sm hover:underline underline-offset-4 transition-all duration-200">Voltar</p>            
         </section>
         </Link>
-        <main className="flex flex-col justify-center items-center text-green py-10">
-            <h1 className="text-3xl" >Projetos</h1>
+        <main className="flex flex-col justify-center items-center text-green py-5">
+            <h1 className="text-3xl py-5" >Projetos</h1>
             <section className="w-full px-32">
             <Table className="">
                 <TableHeader >
@@ -21,21 +21,21 @@ const ProjectsPage = () => {
                         <TableHead>Tecnologia</TableHead>
                     </TableRow>
                 </TableHeader>
-                <TableBody className="rounded" >
+                <TableBody className="rounded">
+                    <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
+                        <TableCell>Agendast LP</TableCell>
+                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://agendast.com.br/">https://agendast.com.br</Link></TableCell>
+                        <TableCell>Next/React</TableCell>
+                    </TableRow>
                     <TableRow className="border-green cursor-pointer hover:bg-gray-800">
                         <TableCell>Need</TableCell>
-                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://need-web-gerencial.vercel.app/">https://need-web-gerencial.vercel.app/</Link></TableCell>
-                        <TableCell>tetst</TableCell>
+                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://need-web-gerencial.vercel.app/">https://need-web-gerencial.vercel.app</Link></TableCell>
+                        <TableCell>Angular</TableCell>
                     </TableRow>
                     <TableRow className="border-green cursor-pointer hover:bg-gray-800">
-                        <TableCell>Soc</TableCell>
-                        <TableCell>Link</TableCell>
-                        <TableCell>tetst</TableCell>
-                    </TableRow>
-                    <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
-                        <TableCell>Soc</TableCell>
-                        <TableCell>texte</TableCell>
-                        <TableCell>tetst</TableCell>
+                        <TableCell>Izi</TableCell>
+                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://izi-web-gerencial-ip15o1x0e-bielzera97s-projects.vercel.app/home">https://izi-web-gerencial.vercel.app</Link></TableCell>
+                        <TableCell>Angular</TableCell>
                     </TableRow>
                 </TableBody>
             </Table>
