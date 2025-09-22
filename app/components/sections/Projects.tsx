@@ -1,8 +1,13 @@
 import { ExternalLink, GithubIcon } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Button from "../Button";
 
 const Projects = () => {
+
+
+  
+
   return (
     <div>
       <motion.section
@@ -26,7 +31,7 @@ const Projects = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 3.4 }}
-          src={"/soc-web.png"}
+          src={"/agendast.png"}
           className="project-photo rounded hover:filter-none transition-all duration-300 shadow-md max-w-full lg:w-1/2"
         />
         <section className="flex flex-col items-start lg:items-end gap-3 lg:w-1/2">
@@ -44,7 +49,7 @@ const Projects = () => {
             transition={{ duration: 3.4 }}
             className="text-[var(--slate-light)] projects font-semibold text-xl"
           >
-            SOC (Ship Own Container)
+            Agendast (LP)
           </motion.h2>
           <motion.section
             initial={{ opacity: 0, x: 50 }}
@@ -53,8 +58,7 @@ const Projects = () => {
             className="project-desc text-sm rounded shadow-lg p-5 text-end"
           >
             <p>
-              SOC é uma plataforma para facilitar o processo logístico entre donos de containers e agentes de carga, ele automatiza o match entre rotas cadastradas e containers disponíveis. Fui responsável pela lógica central de correspondência, garantindo alta performance e precisão nos resultados, otimizando o fluxo de negociações no setor.  
-            </p>
+Agendast é um gerenciador de salões de beleza que facilita o controle de agendamentos, clientes e serviços. A landing page foi desenvolvida em Next.js para performance e SEO, estilizada com Tailwind CSS e componentes shadcn/ui para um visual moderno, totalmente responsivo e pixel perfect. O design foi planejado no Figma, garantindo uma interface limpa e intuitiva.            </p>
           </motion.section>
           <motion.ul
             initial={{ opacity: 0, x: 50 }}
@@ -62,10 +66,10 @@ const Projects = () => {
             transition={{ duration: 3.8 }}
             className="text-[var(--slate)] flex gap-3"
           >
-            <li>Angular</li>
+            <li>Next</li>
             <li>Tailwind</li>
-            <li>SCSS</li>
-            <li>Angular Material</li>
+            <li>shadcn</li>
+            <li>Figma</li>
           </motion.ul>
           <motion.ul
             initial={{ opacity: 0, x: 50 }}
@@ -75,7 +79,7 @@ const Projects = () => {
           >
             <li>
               <Link
-                href={"https://github.com/Bielzera97/soc-web/tree/main"}
+                href={"https://github.com/developeraction/agendast-frontend-2.0"}
                 target="blank"
               >
                 <GithubIcon />
@@ -83,7 +87,7 @@ const Projects = () => {
             </li>
             <li>
               <Link
-                href={"https://soc-web-smoky.vercel.app/#/home/initial"}
+                href={"https://agendast.com.br/"}
                 target="blank"
               >
                 <ExternalLink />
@@ -98,7 +102,7 @@ const Projects = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 3.4 }}
-          src={"/need.png"}
+          src={"/agendamento.png"}
           className="project-photo rounded hover:filter-none transition-all duration-300 shadow-md max-w-full lg:w-1/2"
         />
         <section className="flex flex-col items-start lg:items-end gap-3 lg:w-1/2">
@@ -116,7 +120,7 @@ const Projects = () => {
             transition={{ duration: 3.4 }}
             className="text-[var(--slate-light)] projects font-semibold text-xl"
           >
-            Need
+            Agendast (Agendamento)
           </motion.h2>
           <motion.section
             initial={{ opacity: 0, x: 50 }}
@@ -125,8 +129,7 @@ const Projects = () => {
             className="project-desc text-sm rounded shadow-lg p-5 text-end"
           >
             <p>
-            Need é um sistema de gerenciamento desenvolvido com foco em instituições de ensino. O projeto conta com módulos que exibem dados quantitativos sobre alunos, professores, cursos e aulas, com funcionalidades de pesquisa avançada para acessar informações específicas de cada categoria. Além disso, o sistema permite o cadastro de novos administradores, garantindo controle e organização de forma eficiente e intuitiva.
-            </p>
+Agendast (Agendamento) é uma aplicação completa para agendamento de horários em salões de beleza, permitindo gerenciar clientes, serviços e disponibilidade de forma prática e organizada. Desenvolvida em Next.js, segue boas práticas de código, possui pixel perfect e é totalmente responsiva. A interface foi planejada no Figma, estilizada com Tailwind CSS e componentes shadcn/ui para um visual moderno e consistente. Conta com integração a uma API RESTful e utiliza React Query (TanStack Query) para requisições e cache de dados em tempo real, garantindo performance e experiência fluida para o usuário.            </p>
           </motion.section>
           <motion.ul
             initial={{ opacity: 0, x: 50 }}
@@ -134,10 +137,10 @@ const Projects = () => {
             transition={{ duration: 3.8 }}
             className="text-[var(--slate)] flex gap-3"
           >
-            <li>Angular</li>
+            <li>Next</li>
             <li>API RESTful</li>
-            <li>SCSS</li>
-            <li>Angular Material</li>
+            <li>Tanstack-query</li>
+            <li>shadcn</li>
           </motion.ul>
           <motion.ul
             initial={{ opacity: 0, x: 50 }}
@@ -147,7 +150,7 @@ const Projects = () => {
           >
             <li>
               <Link
-                href={"https://github.com/Bielzera97/need_web_gerencial"}
+                href={"https://github.com/developeraction/agendast-frontend-2.0"}
                 target="blank"
               >
                 <GithubIcon />
@@ -155,7 +158,7 @@ const Projects = () => {
             </li>
             <li>
               <Link
-                href={"https://need-web-gerencial.vercel.app/"}
+                href={"https://agendast.com.br/application/empresateste"}
                 target="blank"
               >
                 <ExternalLink />
@@ -170,7 +173,7 @@ const Projects = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 3.4 }}
-          src={"/izi.png"}
+          src={"/otica-ges.png"}
           className="project-photo rounded hover:filter-none transition-all duration-300 shadow-md max-w-full lg:w-1/2"
         />
         <section className="flex flex-col items-start lg:items-end gap-3 lg:w-1/2">
@@ -188,7 +191,7 @@ const Projects = () => {
             transition={{ duration: 3.4 }}
             className="text-[var(--slate-light)] projects font-semibold text-xl"
           >
-            IZI
+            Ótica G&S
           </motion.h2>
           <motion.section
             initial={{ opacity: 0, x: 50 }}
@@ -196,18 +199,17 @@ const Projects = () => {
             transition={{ duration: 3.6 }}
             className="project-desc text-sm rounded shadow-lg p-5 text-end"
           >
-            <p>
-IZI é um sistema completo para controle de serviços e gerenciamento de usuários. A aplicação permite o cadastro, listagem e administração de usuários e serviços de forma eficiente. Conta com um dashboard interativo que exibe informações e métricas em tempo real, facilitando a visualização geral do sistema. Também inclui funcionalidades para adicionar novos usuários com diferentes níveis de acesso.            </p>
-          </motion.section>
+
+Ótica G&S é uma aplicação web para controle de clientes, fichas e funcionários, oferecendo gestão completa para o dia a dia da ótica. Desenvolvida em React/Next.js, é totalmente responsiva e segue boas práticas de código, com pixel perfect para garantir fidelidade ao design criado no Figma. A interface utiliza Tailwind CSS e componentes shadcn/ui para um visual moderno e consistente, enquanto a integração com API RESTful, o React Query (TanStack Query) e a autenticação com JWT garantem requisições seguras, cache de dados eficiente e alta performance.          </motion.section>
           <motion.ul
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 3.8 }}
             className="text-[var(--slate)] flex gap-3"
           >
-            <li>Angular</li>
+            <li>Next</li>
             <li>Tailwind</li>
-            <li>Angular Material</li>
+            <li>shadcn</li>
             <li>API RESTful</li>
           </motion.ul>
           <motion.ul
@@ -218,7 +220,7 @@ IZI é um sistema completo para controle de serviços e gerenciamento de usuári
           >
             <li>
               <Link
-                href={"https://github.com/Bielzera97/izi_web_gerencial"}
+                href={"https://github.com/developeraction/oticasges-frontend"}
                 target="blank"
               >
                 <GithubIcon />
@@ -226,7 +228,7 @@ IZI é um sistema completo para controle de serviços e gerenciamento de usuári
             </li>
             <li>
               <Link
-                href={"https://izi-web-gerencial-ip15o1x0e-bielzera97s-projects.vercel.app/home"}
+                href={"https://www.oticages.com.br/"}
                 target="blank"
               >
                 <ExternalLink />
@@ -234,7 +236,10 @@ IZI é um sistema completo para controle de serviços e gerenciamento de usuári
             </li>
           </motion.ul>
         </section>
-      </div>  
+      </div>
+      <section className="flex flex-col items-center py-5">
+          <Button link="/projects" label="Ver mais projetos"/>
+      </section>
 
     </div>
   );

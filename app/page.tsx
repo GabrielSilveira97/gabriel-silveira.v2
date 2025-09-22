@@ -21,7 +21,7 @@ const Home = () => {
       >
         {/* Links Sociais */}
         <section className="absolute bottom-[58%] translate-y-1/2 flex flex-col items-center text-[var(--slate-light)] gap-4">
-          <Link target="_blank" href="https://github.com/Bielzera97">
+          <Link target="_blank" href="https://github.com/GabrielSilveira97">
             <GithubIcon className="links" />
           </Link>
           <Link

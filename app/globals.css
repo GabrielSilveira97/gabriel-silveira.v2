@@ -18,9 +18,6 @@
   --light-navy : #112240;
 }
 
-@theme{
-  --green-color: var(--green)
-}
 
 body {
   color: var(--foreground);
