@@ -2,12 +2,13 @@ import Link from "next/link";
 
 type ButtonProps = {
     label: string;
-    link: string
+    link: string;
+    target: string
   };
   
-  const Button = ({ label, link }: ButtonProps) => {
+  const Button = ({ label, link, target }: ButtonProps) => {
     return (
-      <Link href={link} target="blank" className="botao">
+      <Link href={link} target={target} className="botao">
         {label}
       </Link>
     );

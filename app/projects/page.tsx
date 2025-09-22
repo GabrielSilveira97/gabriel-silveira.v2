@@ -12,7 +12,7 @@ const ProjectsPage = () => {
         </Link>
         <main className="flex flex-col justify-center items-center text-green py-5">
             <h1 className="text-3xl py-5" >Projetos</h1>
-            <section className="w-full px-32">
+            <section className="w-full lg:px-32 px-5">
             <Table className="">
                 <TableHeader >
                     <TableRow className="border-green">
@@ -40,7 +40,7 @@ const ProjectsPage = () => {
                     <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
                         <TableCell>Financeiro (Interno)</TableCell>
                         <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://agendast.com.br/financeiro/login">https://agendast.com.br/financeiro/login</Link></TableCell>
-                        <TableCell>Next/React</TableCell>
+                        <TableCell>Next/Fastify</TableCell>
                     </TableRow>
                     <TableRow className="border-green cursor-pointer hover:bg-gray-800">
                         <TableCell>Need</TableCell>
