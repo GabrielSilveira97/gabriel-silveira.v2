@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Button from "./Button";
 import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react"; // ícones de menu
+import { Menu, X } from "lucide-react"; 
 
 const Topbar = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -87,7 +87,7 @@ const Topbar = () => {
             </button>
           </li>
         </ul>
-        <Button link="/cv-gabriel-silveira.pdf" label="Resume" />
+        <Button target="_blank" link="/cv-gabriel-silveira.pdf" label="Resume" />
       </motion.section>
 
       {/* Menu Mobile (dropdown) */}
@@ -124,7 +124,7 @@ const Topbar = () => {
               </button>
             </li>
             <li>
-              <Button link="'/cv-gabriel-silveira.pdf'" label="Resume" />
+              <Button target="_blank" link="'/cv-gabriel-silveira.pdf'" label="Resume" />
             </li>
           </ul>
         </motion.div>

@@ -238,7 +238,7 @@ Agendast (Agendamento) é uma aplicação completa para agendamento de horários
         </section>
       </div>
       <section className="flex flex-col items-center py-5">
-          <Button link="/projects" label="Ver mais projetos"/>
+          <Button link="/projects" target="_self" label="Ver mais projetos"/>
       </section>
 
     </div>
