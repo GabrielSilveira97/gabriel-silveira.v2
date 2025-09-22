@@ -36,7 +36,7 @@ const Home = () => {
       </motion.aside>
 
       {/* Conteúdo Principal */}
-      <main className="flex-1 px-6 sm:px-12 lg:px-28 flex flex-col gap-24 sm:gap-32 py-10">
+      <main className=" flex-1 px-6 sm:px-12 lg:px-28 flex flex-col gap-24 sm:gap-32 py-10">
         <Intro />
         <About />
         <Experience />
