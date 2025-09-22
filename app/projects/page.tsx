@@ -23,6 +23,11 @@ const ProjectsPage = () => {
                 </TableHeader>
                 <TableBody className="rounded">
                     <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
+                        <TableCell>FieldGuide LP</TableCell>
+                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://fieldguide-lp.vercel.app/">https://fieldguide-lp.vercel.app</Link></TableCell>
+                        <TableCell>Next/React</TableCell>
+                    </TableRow>
+                    <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
                         <TableCell>Agendast LP</TableCell>
                         <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://agendast.com.br/">https://agendast.com.br</Link></TableCell>
                         <TableCell>Next/React</TableCell>
