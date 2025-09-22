@@ -87,7 +87,7 @@ const Topbar = () => {
             </button>
           </li>
         </ul>
-        <Button label="Resume" />
+        <Button link="/cv-gabriel-silveira.pdf" label="Resume" />
       </motion.section>
 
       {/* Menu Mobile (dropdown) */}
@@ -124,7 +124,7 @@ const Topbar = () => {
               </button>
             </li>
             <li>
-              <Button label="Resume" />
+              <Button link="'/cv-gabriel-silveira.pdf'" label="Resume" />
             </li>
           </ul>
         </motion.div>

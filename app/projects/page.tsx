@@ -27,6 +27,21 @@ const ProjectsPage = () => {
                         <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://agendast.com.br/">https://agendast.com.br</Link></TableCell>
                         <TableCell>Next/React</TableCell>
                     </TableRow>
+                    <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
+                        <TableCell>Agendast (Agendamento)</TableCell>
+                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://agendast.com.br/application/empresateste">https://agendast.com.br/application/empresateste</Link></TableCell>
+                        <TableCell>Next/React</TableCell>
+                    </TableRow>
+                    <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
+                        <TableCell>Ótica G&S</TableCell>
+                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://www.oticages.com.br/">https://www.oticages.com.br</Link></TableCell>
+                        <TableCell>Next/React</TableCell>
+                    </TableRow>
+                    <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
+                        <TableCell>Financeiro (Interno)</TableCell>
+                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://agendast.com.br/financeiro/login">https://agendast.com.br/financeiro/login</Link></TableCell>
+                        <TableCell>Next/React</TableCell>
+                    </TableRow>
                     <TableRow className="border-green cursor-pointer hover:bg-gray-800">
                         <TableCell>Need</TableCell>
                         <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://need-web-gerencial.vercel.app/">https://need-web-gerencial.vercel.app</Link></TableCell>

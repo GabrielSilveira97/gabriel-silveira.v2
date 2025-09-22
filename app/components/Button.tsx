@@ -2,11 +2,12 @@ import Link from "next/link";
 
 type ButtonProps = {
     label: string;
+    link: string
   };
   
-  const Button = ({ label }: ButtonProps) => {
+  const Button = ({ label, link }: ButtonProps) => {
     return (
-      <Link href={'/cv-gabriel-silveira.pdf'} target="blank" className="botao">
+      <Link href={link} target="blank" className="botao">
         {label}
       </Link>
     );
