@@ -1,6 +1,8 @@
 import { ArrowLeft } from "lucide-react"
-import { Table,TableHeader, TableRow, TableHead, TableBody, TableCell } from "../components/ui/table"
 import Link from "next/link"
+import { Project, projects } from "./projects"
+import { Card, CardContent, CardHeader } from "@/components/ui/card"
+import Image from "next/image"
 const ProjectsPage = () => {
     return(
         <>
@@ -10,55 +12,32 @@ const ProjectsPage = () => {
             <p className="text-sm hover:underline underline-offset-4 transition-all duration-200">Voltar</p>            
         </section>
         </Link>
-        <main className="flex flex-col justify-center items-center text-green py-5">
-            <h1 className="text-3xl py-5" >Projetos</h1>
-            <section className="w-full lg:px-32 px-5">
-            <Table className="">
-                <TableHeader >
-                    <TableRow className="border-green">
-                        <TableHead>Projeto</TableHead>
-                        <TableHead>Link</TableHead>
-                        <TableHead>Tecnologia</TableHead>
-                    </TableRow>
-                </TableHeader>
-                <TableBody className="rounded">
-                    <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
-                        <TableCell>FieldGuide LP</TableCell>
-                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://fieldguide-lp.vercel.app/">https://fieldguide-lp.vercel.app</Link></TableCell>
-                        <TableCell>Next/React</TableCell>
-                    </TableRow>
-                    <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
-                        <TableCell>Agendast LP</TableCell>
-                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://agendast.com.br/">https://agendast.com.br</Link></TableCell>
-                        <TableCell>Next/React</TableCell>
-                    </TableRow>
-                    <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
-                        <TableCell>Agendast (Agendamento)</TableCell>
-                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://agendast.com.br/application/empresateste">https://agendast.com.br/application/empresateste</Link></TableCell>
-                        <TableCell>Next/React</TableCell>
-                    </TableRow>
-                    <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
-                        <TableCell>Ótica G&S</TableCell>
-                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://www.oticages.com.br/">https://www.oticages.com.br</Link></TableCell>
-                        <TableCell>Next/React</TableCell>
-                    </TableRow>
-                    <TableRow className="border-green cursor-pointer hover:bg-gray-800 ">
-                        <TableCell>Financeiro (Interno)</TableCell>
-                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://agendast.com.br/financeiro/login">https://agendast.com.br/financeiro/login</Link></TableCell>
-                        <TableCell>Next/Fastify</TableCell>
-                    </TableRow>
-                    <TableRow className="border-green cursor-pointer hover:bg-gray-800">
-                        <TableCell>Need</TableCell>
-                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://need-web-gerencial.vercel.app/">https://need-web-gerencial.vercel.app</Link></TableCell>
-                        <TableCell>Angular</TableCell>
-                    </TableRow>
-                    <TableRow className="border-green cursor-pointer hover:bg-gray-800">
-                        <TableCell>Izi</TableCell>
-                        <TableCell><Link target="_blank" className="hover:underline underline-offset-4" href="https://izi-web-gerencial-ip15o1x0e-bielzera97s-projects.vercel.app/home">https://izi-web-gerencial.vercel.app</Link></TableCell>
-                        <TableCell>Angular</TableCell>
-                    </TableRow>
-                </TableBody>
-            </Table>
+        <main className="flex flex-col justify-center items-center text-green">
+            <h1 className="text-5xl font-semibold">Projetos</h1>
+            <section className="p-16 grid lg:grid-cols-3 gap-10">
+                {projects.map((project : Project) => {
+
+                    return(
+                        <Link href={project.link ? project.link : "/projects"} target="_blank" key={project.id}>
+                        <Card className="border-none shadow-2xl hover:-translate-y-2 transition-all cursor-pointer" >
+                            <CardHeader className=""><Image className="object-cover w-full rounded-t-3xl" src={project.img} alt={project.title} width={200} height={100} /></CardHeader>
+                            <CardContent className="py-5 overflow-hidden flex flex-col gap-3 ">
+                                <h1 className="text-green">{project.title}</h1>
+                                <p className="text-[#ccd6f6] text-sm">{project.description}</p>
+                                <ul className="flex items-center gap-2">
+                                    {project.icons.map((Icon, index) => {
+                                        return(
+                                            <li key={index}>
+                                                <Icon className="w-6 h-6 text-green" />
+                                            </li>
+                                        )
+                                    })}
+                                </ul>
+                            </CardContent>
+                        </Card>
+                        </Link>
+                    )
+                })}
             </section>
         </main>
         </>
