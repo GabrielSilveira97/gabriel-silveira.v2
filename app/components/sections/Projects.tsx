@@ -2,6 +2,9 @@ import { ExternalLink, GithubIcon } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Button from "../Button";
+import { SiNextdotjs, SiShadcnui } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { FaDocker, FaFigma } from "react-icons/fa";
 
 const Projects = () => {
 
@@ -66,10 +69,10 @@ Agendast é um gerenciador de salões de beleza que facilita o controle de agend
             transition={{ duration: 3.8 }}
             className="text-[var(--slate)] flex gap-3"
           >
-            <li>Next</li>
-            <li>Tailwind</li>
-            <li>shadcn</li>
-            <li>Figma</li>
+            <SiNextdotjs className="w-6 h-6 text-green"/>
+            <RiTailwindCssFill className="w-6 h-6 text-green"/>
+            <SiShadcnui className="w-6 h-6 text-green"/>
+            <FaFigma className="w-6 h-6 text-green"/>
           </motion.ul>
           <motion.ul
             initial={{ opacity: 0, x: 50 }}
@@ -137,10 +140,10 @@ Agendast (Agendamento) é uma aplicação completa para agendamento de horários
             transition={{ duration: 3.8 }}
             className="text-[var(--slate)] flex gap-3"
           >
-            <li>Next</li>
-            <li>API RESTful</li>
-            <li>Tanstack-query</li>
-            <li>shadcn</li>
+            <SiNextdotjs className="w-6 h-6 text-green"/>
+            <RiTailwindCssFill className="w-6 h-6 text-green"/>
+            <SiShadcnui className="w-6 h-6 text-green"/>
+            <FaDocker className="w-6 h-6 text-green"/>
           </motion.ul>
           <motion.ul
             initial={{ opacity: 0, x: 50 }}
@@ -207,10 +210,10 @@ Agendast (Agendamento) é uma aplicação completa para agendamento de horários
             transition={{ duration: 3.8 }}
             className="text-[var(--slate)] flex gap-3"
           >
-            <li>Next</li>
-            <li>Tailwind</li>
-            <li>shadcn</li>
-            <li>API RESTful</li>
+            <SiNextdotjs className="w-6 h-6 text-green"/>
+            <RiTailwindCssFill className="w-6 h-6 text-green"/>
+            <SiShadcnui className="w-6 h-6 text-green"/>
+            <FaDocker className="w-6 h-6 text-green"/>
           </motion.ul>
           <motion.ul
             initial={{ opacity: 0, x: 50 }}
