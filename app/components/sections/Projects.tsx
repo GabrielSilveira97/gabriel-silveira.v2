@@ -5,14 +5,17 @@ import Button from "../Button";
 import { SiNextdotjs, SiShadcnui } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaDocker, FaFigma } from "react-icons/fa";
+import { useIsMobile } from "@/app/hooks/useIsMobile";
+import ProjectsDesktop from "@/components/core/ProjectsDesktop";
 
 const Projects = () => {
 
-
+  const isMobile = useIsMobile()
   
 
   return (
-    <div>
+    <>
+      {isMobile ? <div>
       <motion.section
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
@@ -244,7 +247,25 @@ Agendast (Agendamento) é uma aplicação completa para agendamento de horários
           <Button link="/projects" target="_self" label="Ver mais projetos"/>
       </section>
 
-    </div>
+    </div>  : 
+    <>
+    <motion.section
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 2.8 }}
+        className="flex items-baseline gap-2"
+        id="projects"
+      >
+        <span className="green text-xl">03.</span>
+        <h1 className="gray text-xl font-semibold topic flex items-center gap-5">
+          Meus Projetos
+          <div className="h-[0.5px] w-52 bg-[var(--dark-slate)] mx-auto"></div>
+        </h1>
+      </motion.section>
+
+    <ProjectsDesktop/>
+    </>}
+    </>
   );
 };
 

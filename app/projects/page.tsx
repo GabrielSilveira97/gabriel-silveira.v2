@@ -1,8 +1,9 @@
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
-import { Project, projects } from "./projects"
+import { Project, projects } from "../data/projects"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import Image from "next/image"
+
 const ProjectsPage = () => {
     return(
         <>
