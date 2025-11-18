@@ -37,7 +37,7 @@ const Projects = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 3.4 }}
-          src={"/agendast.png"}
+          src={"/project-images/agendast/agendast.png"}
           className="project-photo rounded hover:filter-none transition-all duration-300 shadow-md max-w-full lg:w-1/2"
         />
         <section className="flex flex-col items-start lg:items-end gap-3 lg:w-1/2">
@@ -108,7 +108,7 @@ Agendast é um gerenciador de salões de beleza que facilita o controle de agend
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 3.4 }}
-          src={"/agendamento.png"}
+          src={"/project-images/agendamento/agendamento.png"}
           className="project-photo rounded hover:filter-none transition-all duration-300 shadow-md max-w-full lg:w-1/2"
         />
         <section className="flex flex-col items-start lg:items-end gap-3 lg:w-1/2">
@@ -179,7 +179,7 @@ Agendast (Agendamento) é uma aplicação completa para agendamento de horários
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 3.4 }}
-          src={"/otica-ges.png"}
+          src={"/project-images/otica/otica-ges.png"}
           className="project-photo rounded hover:filter-none transition-all duration-300 shadow-md max-w-full lg:w-1/2"
         />
         <section className="flex flex-col items-start lg:items-end gap-3 lg:w-1/2">
