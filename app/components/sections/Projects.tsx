@@ -30,7 +30,6 @@ const Projects = () => {
         </h1>
       </motion.section>
 
-      {/* Project 1 */}
       <div className="pt-10 flex flex-col lg:flex-row lg:items-center gap-8">
         <motion.img
           alt="Foto do Projeto"

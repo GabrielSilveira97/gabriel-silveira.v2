@@ -83,7 +83,7 @@ export const projects : Project[] = [
         topics: ["Figma,", "pixel-perfect,", "UX/UI"],
         images: ["/project-images/field-guide/field-guide.png", "/project-images/field-guide/field-guide-2.png", "/project-images/field-guide/field-guide-3.png"]
     },
-        {
+    {
         id: 5,
         img: "/project-images/agendast/agendast.png",
         title: "Agendast LP",
@@ -153,6 +153,22 @@ export const projects : Project[] = [
         ],
         topics: ["API REST"],
         images: ["/financeiro.png"]
+    },
+    {
+        id: 10,
+        img: "/project-images/flow-pay/flow-pay-1.png",
+        title: "FlowPay",
+        link: "https://flow-pay-iota.vercel.app/",
+        description: "LP para a promoção e prospecção de novos clientes para os produtos da plataforma FlowPay",
+        icons: [
+            TbBrandTypescript,
+            FaReact,
+            SiNextdotjs,
+            RiTailwindCssFill,
+            FaDocker
+        ],
+        topics: ["API REST"],
+        images: ["/project-images/flow-pay/flow-pay-1.png", "/project-images/flow-pay/flow-pay-2.png", "/project-images/flow-pay/flow-pay-3.png"]
     },
     
 ]
