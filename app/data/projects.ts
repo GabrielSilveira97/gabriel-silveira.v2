@@ -1,10 +1,10 @@
 import { IconType } from "react-icons"
 import { FaAngular, FaDocker, FaNodeJs, FaReact } from "react-icons/fa"
-import { SiNextdotjs } from "react-icons/si"
+import { SiNextdotjs, SiVite } from "react-icons/si"
 import { RiTailwindCssFill } from "react-icons/ri"
 import { IoLogoSass } from "react-icons/io5";
 import { TbBrandPrisma, TbBrandTypescript } from "react-icons/tb";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
 
 export type Project = {
     id: number,
@@ -20,26 +20,55 @@ export type Project = {
 
 export const projects : Project[] = [
 
-    {
+        {
         id: 1,
-        img: "/project-images/lume/lume.png",
-        title: "Lume",
-        description: "Plataforma de gestão financeira para controle de entradas, despesas, balanços e usuários de forma simples e eficiente.",
-        link: "https://financial-sass.vercel.app/",
+        img: "/project-images/serpfy/serpfy-1.png",
+        title: "Serpfy - LP",
+        description: "Landing page desenvolvida para apresentar o Serpfy, uma ferramenta de SEO que auxilia empresas a melhorar seu posicionamento nos motores de busca e aumentar sua visibilidade online.",
+        link: "https://serpfy-lp.vercel.app",
+        icons: [
+            FaReact,
+            SiVite,
+            RiTailwindCssFill,
+            BiLogoTypescript
+        ],
+        topics: ["Figma,", "pixel-perfect,", "UX/UI",],
+        images: ["/project-images/serpfy/serpfy-1.png", "/project-images/serpfy/serpfy-2.png", "/project-images/serpfy/serpfy-3.png"]
+    },
+
+    {
+        id: 2,
+        img: "/project-images/flow-one/flow-one-1.png",
+        title: "FlowOne - LP",
+        description: "Landing Page focada na promoção do produto Flow One, uma solução inovadora para gestão financeira empresarial.",
+        link: "https://flow-one-five.vercel.app",
+        icons: [
+            FaReact,
+            SiVite,
+            RiTailwindCssFill,
+            BiLogoTypescript
+            
+        ],
+        topics: ["Figma,", "pixel-perfect,", "UX/UI",],
+        images : ["/project-images/flow-one/flow-one-1.png", "/project-images/flow-one/flow-one-2.png", "/project-images/flow-one/flow-one-3.png"]
+    },
+        {
+        id: 3,
+        img: "/project-images/agendast/agendast.png",
+        title: "Agendast - LP",
+        description: "Esta é a landing page oficial do AgenDast, desenvolvida com Next.js, TypeScript e Tailwind CSS. O projeto tem como objetivo apresentar de forma clara e atrativa os benefícios do produto.",
+        link: "https://agendast.com.br",
         icons: [
             FaReact,
             SiNextdotjs,
             RiTailwindCssFill,
-            FaNodeJs,
-            BiLogoPostgresql,
-            TbBrandPrisma,
-            FaDocker
+            BiLogoTypescript,
         ],
-        topics: ["API REST,", "tanstack-query,", "Axios"],
-        images : ["/project-images/lume/lume.png", "/project-images/lume/lume-2.png", "/project-images/lume/lume-3.png"]
+        topics: ["Figma,", "pixel-perfect,", "UX/UI"],
+        images: ["/project-images/agendast/agendast.png", "/project-images/agendast/agendast-2.png", "/project-images/agendast/agendast-3.png"]
     },    
     {
-        id: 2,
+        id: 4,
         img: "/project-images/agendamento/agendamento.png",
         title: "Agendast (Agendamento)",
         description: "Sistema de agendamento integrado a um projeto de gerência de atendimentos, permitindo criar e gerenciar compromissos de forma centralizada.",
@@ -51,11 +80,11 @@ export const projects : Project[] = [
             RiTailwindCssFill,
             FaDocker
         ],
-        topics: ["API REST,", "tanstack-query,", "Axios"],
+        topics: ["API REST,", "react-query,", "axios"],
         images : ["/project-images/agendamento/agendamento.png", "/project-images/agendamento/agendamento-2.png", "/project-images/agendamento/agendamento-3.png"]
     },   
     {
-        id: 3,
+        id: 5,
         img: "/project-images/otica/otica-ges.png",
         title: "Ótica G&S",
         description: "Aplicação web para gerenciamento de fichas de atendimento em uma ótica, permitindo controle por status, filtragem por data e geração de relatórios em PDF.",
@@ -67,36 +96,11 @@ export const projects : Project[] = [
             RiTailwindCssFill,
             FaDocker
         ],
-        topics: ["API REST,", "tanstack-query,", "Axios"],
+        topics: ["API REST,", "react-query,", "axios"],
         images: ["/project-images/otica/otica-ges.png", "/project-images/otica/otica-ges-2.png", "/project-images/otica/otica-ges-3.png"]
     },
-        {
-        id: 4,
-        img: "/project-images/field-guide/field-guide.png",
-        title: "FieldGuide LP",
-        description: "Landing page desenvolvida para apresentar o FieldGuide, um software de auxílio financeiro que ajuda pessoas e empresas a organizar, monitorar e planejar suas finanças.",
-        link: "https://fieldguide-lp.vercel.app",
-        icons: [
-            FaReact,
-            RiTailwindCssFill
-        ],
-        topics: ["Figma,", "pixel-perfect,", "UX/UI"],
-        images: ["/project-images/field-guide/field-guide.png", "/project-images/field-guide/field-guide-2.png", "/project-images/field-guide/field-guide-3.png"]
-    },
-    {
-        id: 5,
-        img: "/project-images/agendast/agendast.png",
-        title: "Agendast LP",
-        description: "Esta é a landing page oficial do AgenDast, desenvolvida com Next.js, TypeScript e Tailwind CSS. O projeto tem como objetivo apresentar de forma clara e atrativa os benefícios do produto.",
-        link: "https://agendast.com.br",
-        icons: [
-            FaReact,
-            SiNextdotjs,
-            RiTailwindCssFill
-        ],
-        topics: ["Figma,", "pixel-perfect,", "UX/UI"],
-        images: ["/project-images/agendast/agendast.png", "/project-images/agendast/agendast-2.png", "/project-images/agendast/agendast-3.png"]
-    },
+
+
     {
         id: 6,
         img: "/soc-web.png",
@@ -170,5 +174,35 @@ export const projects : Project[] = [
         topics: ["API REST"],
         images: ["/project-images/flow-pay/flow-pay-1.png", "/project-images/flow-pay/flow-pay-2.png", "/project-images/flow-pay/flow-pay-3.png"]
     },
-    
+    {
+        id: 11,
+        img: "/project-images/lume/lume.png",
+        title: "Lume",
+        description: "Plataforma de gestão financeira para controle de entradas, despesas, balanços e usuários de forma simples e eficiente.",
+        link: "https://financial-sass.vercel.app/",
+        icons: [
+            FaReact,
+            SiNextdotjs,
+            RiTailwindCssFill,
+            FaNodeJs,
+            BiLogoPostgresql,
+            TbBrandPrisma,
+            FaDocker
+        ],
+        topics: ["API REST,", "tanstack-query,", "Axios"],
+        images : ["/project-images/lume/lume.png", "/project-images/lume/lume-2.png", "/project-images/lume/lume-3.png"]
+    },
+    {
+        id: 12,
+        img: "/project-images/field-guide/field-guide.png",
+        title: "FieldGuide LP",
+        description: "Landing page desenvolvida para apresentar o FieldGuide, um software de auxílio financeiro que ajuda pessoas e empresas a organizar, monitorar e planejar suas finanças.",
+        link: "https://fieldguide-lp.vercel.app",
+        icons: [
+            FaReact,
+            RiTailwindCssFill
+        ],
+        topics: ["Figma,", "pixel-perfect,", "UX/UI"],
+        images: ["/project-images/field-guide/field-guide.png", "/project-images/field-guide/field-guide-2.png", "/project-images/field-guide/field-guide-3.png"]
+    },
 ]
