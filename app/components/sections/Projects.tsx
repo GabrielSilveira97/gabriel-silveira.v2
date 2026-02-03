@@ -233,7 +233,7 @@ Agendast (Agendamento) é uma aplicação completa para agendamento de horários
             </li>
             <li>
               <Link
-                href={"https://www.oticages.com.br/"}
+                href={"https://serpfy.vercel.app"}
                 target="blank"
               >
                 <ExternalLink />

@@ -25,7 +25,7 @@ export const projects : Project[] = [
         img: "/project-images/serpfy/serpfy-1.png",
         title: "Serpfy - LP",
         description: "Landing page desenvolvida para apresentar o Serpfy, uma ferramenta de SEO que auxilia empresas a melhorar seu posicionamento nos motores de busca e aumentar sua visibilidade online.",
-        link: "https://serpfy-lp.vercel.app",
+        link: "https://serpfy.vercel.app/",
         icons: [
             FaReact,
             SiVite,
