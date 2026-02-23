@@ -52,8 +52,38 @@ export const projects : Project[] = [
         topics: ["Figma,", "pixel-perfect,", "UX/UI",],
         images : ["/project-images/flow-one/flow-one-1.png", "/project-images/flow-one/flow-one-2.png", "/project-images/flow-one/flow-one-3.png"]
     },
-        {
+    {
         id: 3,
+        img: "/project-images/agendamento/agendamento.png",
+        title: "Agendast – Sistema de Agendamento",
+        description: "Plataforma desenvolvida para barbearias e salões de beleza, focada na gestão de horários, organização da agenda e otimização do atendimento, proporcionando praticidade para profissionais e clientes.",
+        link: "https://agendast.com.br/application/empresateste",
+        icons: [
+            FaReact,
+            SiNextdotjs,
+            RiTailwindCssFill,
+            BiLogoTypescript,
+        ],
+        topics: ["Figma,", "pixel-perfect,", "UX/UI"],
+        images: ["/project-images/agendamento/agendamento.png", "/project-images/agendamento/agendamento-2.png", "/project-images/agendamento/agendamento-3.png"]
+    },    
+    {
+        id: 4,
+        img: "/project-images/focus/focus-1.png",
+        title: "Focuscanna – Website",
+        description: "Site institucional da Focuscanna, voltado à apresentação de tratamentos com cannabis medicinal prescritos por médicos para doenças crônicas, com foco em credibilidade e clareza.",
+        link: "https://leo-mvp.vercel.app/",
+        icons: [
+            TbBrandTypescript,
+            FaReact,
+            SiNextdotjs,
+            RiTailwindCssFill,
+        ],
+        topics: ["Next, shadcn, SSR"],
+        images : ["/project-images/focus/focus-1.png", "/project-images/focus/focus-2.png", "/project-images/focus/focus-3.png"]
+    },
+        {
+        id: 5,
         img: "/project-images/agendast/agendast.png",
         title: "Agendast - LP",
         description: "Esta é a landing page oficial do AgenDast, desenvolvida com Next.js, TypeScript e Tailwind CSS. O projeto tem como objetivo apresentar de forma clara e atrativa os benefícios do produto.",
@@ -66,25 +96,10 @@ export const projects : Project[] = [
         ],
         topics: ["Figma,", "pixel-perfect,", "UX/UI"],
         images: ["/project-images/agendast/agendast.png", "/project-images/agendast/agendast-2.png", "/project-images/agendast/agendast-3.png"]
-    },    
+    }, 
+       
     {
-        id: 4,
-        img: "/project-images/agendamento/agendamento.png",
-        title: "Agendast (Agendamento)",
-        description: "Sistema de agendamento integrado a um projeto de gerência de atendimentos, permitindo criar e gerenciar compromissos de forma centralizada.",
-        link: "https://agendast.com.br/application/empresateste/",
-        icons: [
-            TbBrandTypescript,
-            FaReact,
-            SiNextdotjs,
-            RiTailwindCssFill,
-            FaDocker
-        ],
-        topics: ["API REST,", "react-query,", "axios"],
-        images : ["/project-images/agendamento/agendamento.png", "/project-images/agendamento/agendamento-2.png", "/project-images/agendamento/agendamento-3.png"]
-    },   
-    {
-        id: 5,
+        id: 6,
         img: "/project-images/otica/otica-ges.png",
         title: "Ótica G&S",
         description: "Aplicação web para gerenciamento de fichas de atendimento em uma ótica, permitindo controle por status, filtragem por data e geração de relatórios em PDF.",
@@ -102,7 +117,7 @@ export const projects : Project[] = [
 
 
     {
-        id: 6,
+        id: 7,
         img: "/soc-web.png",
         title: "SOC (Ship Own Containter)",
         description: "Plataforma de match entre donos de containers e donos de cargas, conectando ambas as partes com base no tipo de container e na rota desejada, otimizando o transporte e reduzindo custos logísticos.",
@@ -116,7 +131,7 @@ export const projects : Project[] = [
         images: ["/soc-web.png"]
     },
     {
-        id: 7,
+        id: 8,
         img: "/izi.png",
         title: "IZI",
         description: "Plataforma de serviços autônomos que conecta clientes e profissionais, permitindo o registro de serviços por ambas as partes. O sistema realiza o match automático de acordo com as necessidades do cliente e a especialidade do profissional, facilitando contratações rápidas e precisas.",
@@ -130,7 +145,7 @@ export const projects : Project[] = [
         images: ["/izi.png"]
     },
     {
-        id: 8,
+        id: 9,
         img: "/need.png",
         title: "Need",
         description: "Sistema de gerenciamento escolar com CRUD completo para professores, alunos e matérias, permitindo o controle e organização das informações acadêmicas de forma simples e eficiente.",
@@ -144,7 +159,7 @@ export const projects : Project[] = [
         images: ["/need.png"]
     },
         {
-        id: 9,
+        id: 10,
         img: "/financeiro.png",
         title: "Financeiro (Interno)",
         description: "Plataforma financeira para controle de entradas, saídas e crédito, com gerenciamento de clientes e dashboard de estatísticas que oferece visão geral das finanças, permitindo acompanhamento e análise eficiente dos dados.",
@@ -159,7 +174,7 @@ export const projects : Project[] = [
         images: ["/financeiro.png"]
     },
     {
-        id: 10,
+        id: 11,
         img: "/project-images/flow-pay/flow-pay-1.png",
         title: "FlowPay",
         link: "https://flow-pay-iota.vercel.app/",
@@ -175,7 +190,7 @@ export const projects : Project[] = [
         images: ["/project-images/flow-pay/flow-pay-1.png", "/project-images/flow-pay/flow-pay-2.png", "/project-images/flow-pay/flow-pay-3.png"]
     },
     {
-        id: 11,
+        id: 12,
         img: "/project-images/lume/lume.png",
         title: "Lume",
         description: "Plataforma de gestão financeira para controle de entradas, despesas, balanços e usuários de forma simples e eficiente.",
@@ -193,7 +208,7 @@ export const projects : Project[] = [
         images : ["/project-images/lume/lume.png", "/project-images/lume/lume-2.png", "/project-images/lume/lume-3.png"]
     },
     {
-        id: 12,
+        id: 13,
         img: "/project-images/field-guide/field-guide.png",
         title: "FieldGuide LP",
         description: "Landing page desenvolvida para apresentar o FieldGuide, um software de auxílio financeiro que ajuda pessoas e empresas a organizar, monitorar e planejar suas finanças.",
